@@ -1,0 +1,21 @@
+Package: DataTransformation
+Type: Package
+Title: Advanced Data Transformation and Aggregation for Regression Modeling
+Version: 0.1.0
+Author: Zainab Said Alhosni<[s133464@student.squ.edu.om]>
+Maintainer: Zainab Said Al Hosni <s133464@student.squ.edu.om>
+Description: Implements advanced data transformation methods (e.g., logarithmic, Box-Cox, Z-score, Min-Max Normalization) and aggregation techniques (e.g., summing, averaging, weighted aggregation, moving averages). Includes tools for regression modeling with transformed data.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    MASS,
+    glmnet,
+    stats
+Suggests:
+    testthat (>= 3.0.0),
+    devtools,
+    usethis
